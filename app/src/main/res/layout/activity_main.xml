@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".home.MainActivity">
+    tools:context=".controller.home.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_chat"

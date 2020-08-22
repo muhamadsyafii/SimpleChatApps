@@ -1,20 +1,16 @@
-package dev.syafii.chatapps.home
+package dev.syafii.chatapps.controller.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.LinearLayout
-import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
 import dev.syafii.chatapps.R
 import dev.syafii.chatapps.databinding.ActivityMainBinding
-import dev.syafii.chatapps.login.LoginActivity
+import dev.syafii.chatapps.controller.login.LoginActivity
 import dev.syafii.chatapps.util.toast
 
 class MainActivity : AppCompatActivity() {

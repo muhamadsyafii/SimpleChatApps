@@ -1,4 +1,4 @@
-package dev.syafii.chatapps.home
+package dev.syafii.chatapps.controller.home
 
 import android.util.Log
 import androidx.lifecycle.LiveData

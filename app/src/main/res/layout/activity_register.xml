@@ -49,21 +49,22 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnLRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
-        android:text="Login"
+        android:text="Register"
         android:textColor="#ffffff" />
 
+
     <TextView
-        android:id="@+id/tv_register"
+        android:id="@+id/tv_Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="Don't have account ?  Register here!" />
+        android:text="Already registered ?  Login" />
 
 </LinearLayout>

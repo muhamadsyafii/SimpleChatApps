@@ -1,15 +1,17 @@
-package dev.syafii.chatapps.login
+package dev.syafii.chatapps.controller.login
 
 import android.app.Dialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.observe
-import dev.syafii.chatapps.home.MainActivity
+import dev.syafii.chatapps.controller.home.MainActivity
 import dev.syafii.chatapps.R
+import dev.syafii.chatapps.Status
+import dev.syafii.chatapps.controller.register.RegisterActivity
+import dev.syafii.chatapps.controller.register.RegisterViewModel
 import dev.syafii.chatapps.databinding.ActivityLoginBinding
 import dev.syafii.chatapps.util.toast
 
@@ -44,6 +46,12 @@ class LoginActivity : AppCompatActivity() {
     private fun viewClicked(){
         binding.btnLogin.setOnClickListener {
             validation()
+        }
+        binding.tvRegister.setOnClickListener{
+            Intent(this, RegisterActivity::class.java).also { intent ->
+                startActivity(intent)
+                finish()
+            }
         }
     }
 

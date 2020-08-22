@@ -1,4 +1,4 @@
-package dev.syafii.chatapps.home
+package dev.syafii.chatapps.controller.home
 
 import android.view.LayoutInflater
 import android.view.View

@@ -1,9 +1,10 @@
-package dev.syafii.chatapps.login
+package dev.syafii.chatapps.controller.login
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.firebase.auth.FirebaseAuth
+import dev.syafii.chatapps.Status
 
 class LoginViewModel : ViewModel(){
 
