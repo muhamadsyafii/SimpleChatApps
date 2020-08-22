@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "220883536021",
+    "firebase_url": "https://simple-chat-apps-2041f.firebaseio.com",
+    "project_id": "simple-chat-apps-2041f",
+    "storage_bucket": "simple-chat-apps-2041f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220883536021:android:7a2e5296ac3e753b85339c",
+        "android_client_info": {
+          "package_name": "dev.syafii.chatapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220883536021-56ok3h2oke7450qfoj83ntggmp8tcuob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.syafii.chatapps",
+            "certificate_hash": "a9135ad75b8779616cd081b7604d7f7d620dc256"
+          }
+        },
+        {
+          "client_id": "220883536021-47l370nk4l4t6fp62emmvaeu6h9pchqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5GWOGJzg_D8K0GO1SQWWfxWd7JOOrCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220883536021-47l370nk4l4t6fp62emmvaeu6h9pchqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
